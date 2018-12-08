@@ -7,7 +7,9 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  produce = []
+  groceries.each do |category,product|
+    produce << product
+  end
+  produce.flatten
 end
